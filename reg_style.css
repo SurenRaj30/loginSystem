@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Alata", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e0e5ec;
+}
+.register_form {
+  position: relative;
+  width: 600px;
+  padding: 40px 40px 60px;
+  background: #e0e5ec;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+    5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+h2 {
+  margin-bottom: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.names input {
+  margin-bottom: 30px;
+  border-radius: 40px;
+  padding: 5px 15px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: #e0e5ec;
+  color: #fff;
+  font-size: 18px;
+  color: black;
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.email input {
+  margin-bottom: 30px;
+  width: 90%;
+  border-radius: 40px;
+  padding: 5px 15px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: #e0e5ec;
+  color: #fff;
+  font-size: 18px;
+  color: black;
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.uid input {
+  margin-bottom: 30px;
+  width: 90%;
+  border-radius: 40px;
+  padding: 5px 15px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: #e0e5ec;
+  color: #fff;
+  font-size: 18px;
+  color: black;
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.pwd input {
+  margin-bottom: 30px;
+  width: 90%;
+  border-radius: 40px;
+  padding: 5px 15px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: #e0e5ec;
+  color: #fff;
+  font-size: 18px;
+  color: black;
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.inputBox input {
+  width: 90%;
+  height: 50px;
+  background: #e0e5ec;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 20px;
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.1),
+    2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.inputBox input[type="submit"] {
+  margin-top: 20px;
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.1),
+    2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.inputBox input[type="submit"]:active {
+  color: darkblue;
+  margin-top: 20px;
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.error {
+  color: #ff047f;
+}
